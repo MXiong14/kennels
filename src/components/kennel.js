@@ -1,9 +1,9 @@
 import React from "react"
 import { AnimalCard } from "./animal/AnimalCard"
-import { Employees } from "./animal/Employees"
+import { Employees } from "./employees/Employees"
 import "./animal/Animal.css"
-import { Locations } from "./animal/Locations"
-import { Customers } from "./animal/Customers"
+import { Locations } from "./locations/Locations"
+import { Customers } from "./customers/Customers"
 
 //Look carefully at the <article> tag. In React, we add classes to a component with `className` instead of `class`.
 export const Kennel = () => (
