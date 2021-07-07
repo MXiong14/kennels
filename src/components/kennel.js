@@ -4,6 +4,7 @@ import { Employees } from "./employees/Employees"
 import "./animal/Animal.css"
 import { Locations } from "./locations/Locations"
 import { Customers } from "./customers/Customers"
+import { PropsAndState } from "./PropsAndState"
 
 //Look carefully at the <article> tag. In React, we add classes to a component with `className` instead of `class`.
 export const Kennel = () => (
@@ -16,12 +17,16 @@ export const Kennel = () => (
             <div>500 Puppy Way</div>
         </address>
 
-        <h2>Animals</h2>
-        <article className="animals">
-            <AnimalCard />
-            <AnimalCard />
-            <AnimalCard />
-        </article>
+    
+    <PropsAndState yourName="Matt" />
+    <h2>Animals</h2>
+    <article className="animals">
+        <AnimalCard />
+        <AnimalCard />
+        <AnimalCard />
+    </article>
+    
+
         
         <h2>Employees</h2>
         <article className="employees">
@@ -43,5 +48,6 @@ export const Kennel = () => (
             <Customers />
             <Customers />
         </article> 
+        
     </>
 )
