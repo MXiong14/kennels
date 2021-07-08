@@ -1,7 +1,8 @@
 import React, { useState } from "react"
 
 export const PropsAndState = ({ yourName }) => {
-  let [countClicks, setCountClicks] = useState(0)
+  
+    let [countClicks, setCountClicks] = useState(0)
 
   const handleClick = () => {
     //good practice:
