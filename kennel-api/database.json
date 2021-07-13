@@ -1,86 +1,65 @@
 {
-    "animals": [
-        {
-            "id": 1,
-            "name": "Doodles",
-            "breed": "Poodle",
-            "customerId": 1,
-            "locationId": 2
-        },
-
-        {
-            "id": 2,
-            "name": "Lola",
-            "breed": "Husky",
-            "customerId": 2,
-            "locationId": 1
-        },
-
-        {
-            "id": 3,
-            "name": "Bugs",
-            "breed": "Samoyed",
-            "customerId": 3,
-            "locationId": 1
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "name": "Hannah Hall",
-            "email": "hannah@live.com",
-            "address": "1998 Chestnut Ct"
-        },
-
-        {
-            "id": 2,
-            "name": "Luke Looks",
-            "email": "luke@live.com",
-            "address": "7002 Walnut Ave"
-        },
-
-        {
-            "id": 3,
-            "name": "Mike Shultz",
-            "email": "mike@live.com",
-            "address": "9087 Creek Rd"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Jeremy Bakker",
-            "locationId": 1
-        },
-
-        {
-            "id": 2,
-            "name": "Mike Marker",
-            "locationId": 2
-        },
-
-        {
-            "id": 3,
-            "name": "Kelly Karker",
-            "locationId": 2
-        },
-
-        {
-            "id": 4,
-            "name": "Peter Parker",
-            "locationId": 1
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "name": "Nashville North",
-            "address": "8422 Johnson Pike"
-        },
-        {
-            "id": 2,
-            "name": "Nashville South",
-            "address": "209 Emory Drive"
-        }
-    ]
+  "animals": [
+    {
+      "name": "Hershey",
+      "breed": "Husky",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 4
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Hannah Hall",
+      "email": "hannah@live.com",
+      "address": "1998 Chestnut Ct"
+    },
+    {
+      "id": 2,
+      "name": "Luke Looks",
+      "email": "luke@live.com",
+      "address": "7002 Walnut Ave"
+    },
+    {
+      "id": 3,
+      "name": "Mike Shultz",
+      "email": "mike@live.com",
+      "address": "9087 Creek Rd"
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Jeremy Bakker",
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "name": "Mike Marker",
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "name": "Kelly Karker",
+      "locationId": 2
+    },
+    {
+      "id": 4,
+      "name": "Peter Parker",
+      "locationId": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
 }

@@ -4,6 +4,7 @@ import { Home } from "./Home"
 import { AnimalProvider } from "./animal/AnimalProvider.js"
 import { AnimalList } from "./animal/AnimalList.js"
 import { AnimalForm } from "./animal/AnimalForm.js"
+import { AnimalDetail } from "./animal/AnimalDetail.js"
 import { CustomerProvider } from "./customer/CustomerProvider.js"
 import { CustomerList } from "./customer/CustomerList.js"
 import { EmployeeProvider } from "./employee/EmployeeProvider.js"
@@ -26,6 +27,12 @@ export const ApplicationViews = () => {
                         <Route exact path="/animals">
                             <AnimalList />
                         </Route>
+
+                        
+                        <Route exact path="/animals/detail/:animalId(\d+)">
+		                    <AnimalDetail />
+	                    </Route>
+            
 
                         <Route exact path="/animals/create">
                              <AnimalForm />
