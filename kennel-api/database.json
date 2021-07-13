@@ -28,18 +28,21 @@
         {
             "id": 1,
             "name": "Hannah Hall",
+            "email": "hannah@live.com",
             "address": "1998 Chestnut Ct"
         },
 
         {
             "id": 2,
             "name": "Luke Looks",
+            "email": "luke@live.com",
             "address": "7002 Walnut Ave"
         },
 
         {
             "id": 3,
             "name": "Mike Shultz",
+            "email": "mike@live.com",
             "address": "9087 Creek Rd"
         }
     ],
