@@ -8,11 +8,12 @@ export const AnimalList = () => {
   const { animals, getAnimals } = useContext(AnimalContext)
 
   //useEffect - reach out to the world for something
+  //takes 2 arguments: a function ref and a trigger(or set of triggers)
   useEffect(() => {
-    console.log("AnimalList: useEffect - getAnimals")
+    console.log("AnimalList: useEffect - getAnimals") //will happen once
     getAnimals()
 
-  }, [])
+  }, []) //leaving the array empty means only call the function once -- when the component first renders
 
 
   return (
